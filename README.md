@@ -1,4 +1,5 @@
 # Mall
+English|[简体中文](https://github.com/holo0906/mall/blob/main/README-zh.md)
 > 这是一个简易的商城项目。
 页面及数据参考[Exrick/xmall](https://github.com/Exrick/xmall)
 ## 所用技术

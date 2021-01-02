@@ -32,6 +32,7 @@ npm run serve
 浏览器访问 http://localhost:8080
 ## Run Error
 > 若运行项目时出现该错误：
+
 > This dependency was not found:
 > * axios in ./src/main.js
 > To install it, you can run: npm install --save axios

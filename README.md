@@ -1,44 +1,44 @@
 # Mall
-English|[简体中文](https://github.com/holo0906/mall/blob/main/README-zh.md)
-> 这是一个简易的商城项目。
-页面及数据参考[Exrick/xmall](https://github.com/Exrick/xmall)
-## 所用技术
+English | [简体中文](https://github.com/holo0906/mall/blob/main/README-zh.md)
+> This is a simple mall project.
+Page and data reference[Exrick/xmall](https://github.com/Exrick/xmall)
+## Technology used
 - Vue2 + Vuex + Vue Router + Element UI + ES6 + axios + Node.js
 ## Build Setup
 ```bash
-# 克隆项目
+# clone the project
 git clone https://github.com/holo0906/mall.git
 
-# 进入项目目录
+# enter the project directory
 cd mall
 
-# 安装依赖
+# install dependency
 npm install
 
-# 进入server目录
+# enter the server directory
 cd server
 
-# 安装依赖
+# install dependency
 npm i cors body-parse express jsonwebtoken -s
 
-# 建议不要直接使用 cnpm 安装以来，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
+# It is not recommended to use cnpm directly. Since the installation, there will be all kinds of strange bugs. The problem of slow download speed of NPM can be solved by the following operations
 npm install --registry=https://registry.npm.taobao.org
 
-# 启动服务器
-nodemon app.js（没有安装nodemon的自行安装） 或 node app.js
+# start the server
+nodemon app.js(Self install without nodemon) or node app.js
 
-# 启动项目
+# start project
 npm run serve
 ```
-浏览器访问 http://localhost:8080
+browser access http://localhost:8080
 ## Run Error
-> 若运行项目时出现该错误：
+> If this error occurs while running the project：
 > This dependency was not found:
 > axios in ./src/main.js
 > To install it, you can run: npm install --save axios
 > Error from chokidar (D:\): Error: EBUSY: resource busy or locked, lstat 'D:\pagefile.sys'
 
-重新安装一下 axios 即可，`npm install --save axios`
+just re install axios,`npm install --save axios`
 ## License
 
 [MIT](https://github.com/holo0906/mall/blob/main/LICENSE) License

@@ -30,6 +30,13 @@ nodemon app.js（没有安装nodemon的自行安装） 或 node app.js
 npm run serve
 ```
 浏览器访问 http://localhost:8080
+## Run Error
+> 若运行项目时出现该错误：
+> This dependency was not found:
+> * axios in ./src/main.js
+> To install it, you can run: npm install --save axios
+> Error from chokidar (D:\): Error: EBUSY: resource busy or locked, lstat 'D:\pagefile.sys'
+重新安装一下 axios 即可，`npm install --save axios`
 ## License
 
 [MIT](https://github.com/holo0906/mall/blob/main/LICENSE) License

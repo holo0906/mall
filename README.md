@@ -19,6 +19,6 @@ npm install --registry=https://registry.npm.taobao.org
 ```
 ## License
 
-MIT License
+[MIT](https://github.com/holo0906/mall/blob/main/LICENSE) License
 
 Copyright (c) 2021 holo0906

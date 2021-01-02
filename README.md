@@ -33,7 +33,7 @@ npm run serve
 ## Run Error
 > 若运行项目时出现该错误：
 > This dependency was not found:
-> * axios in ./src/main.js
+> axios in ./src/main.js
 > To install it, you can run: npm install --save axios
 > Error from chokidar (D:\): Error: EBUSY: resource busy or locked, lstat 'D:\pagefile.sys'
 
